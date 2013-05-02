@@ -1,0 +1,16 @@
+{
+  "socialmedia" : [
+    {
+      "shortname" : "twitter",
+      "url" : "http://www.twitter.com/barcampdeland"
+    },
+    {
+      "shortname" : "facebook",
+      "url" : "http://www.facebook.com/barcampdeland"
+    },
+    {
+      "shortname" : "meetup",
+      "url" : "http://www.meetup.com/Tech-Deland-bringing-together-people-technology/"
+    }
+  ]
+}
