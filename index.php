@@ -7,164 +7,107 @@
 
     <link href="_/css/bootstrap.css" rel="stylesheet">
     <link href="_/css/mystyles.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
 
+  	<header class="group">
+  		<div id="branding">
+  			<a href="index.php"><img src="images/logos/techdelandlogo_wide.svg" alt="Tech Deland logo"></a>
+  		</div>
+  		<div class="socialmediaicons desktop"></div>
+  	</header>
 
+  	<section id="hero" class="group"></section>
 
-    <!-- NAVBAR
-    ================================================== -->
-    <div class="navbar-wrapper">
-      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
+		<section id="content" class="row-fluid">
+		  <div id="main" class="span8">
+		  	<article>
+	  			<h1>Welcome</h1>
+	  			<p>Tech Deland is a group of technology enthusiasts in the Downtown Deland area meeting once a month to encourage a better understanding of technology. We do this by sharing what we know about technology with others.</p>
+	  			<p>The group encourages learning in all types of technology including Photography, Graphic Design, Web Design, Web Development and more. We dream of Downtown Deland one day becoming a place that's well known for a thriving tech scene.</p>
 
-        <div class="navbar navbar-inverse">
-          <div class="navbar-inner">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="brand" href="#">Project name</a>
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-            <div class="nav-collapse collapse">
-              <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="nav-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div><!-- /.navbar-inner -->
-        </div><!-- /.navbar -->
+		  	<article>
+	  			<h2>Get Busy!</h2>
+	  			<p>If you want to keep up with what's going on with the group, <a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/">join our meetup group</a>, <a href="http://www.twitter.com/barcampdeland">follow us on twitter</a> or sign up for our email list on the sidebar to the right. If you're in facebook, you can also <a href="http://www.facebook.com/barcampdeland">join our FaceBook group</a>.</p>
+		  	</article>
 
-      </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->
+				<h2>Who should come?</h2>
+				<ul>
+					<li>Anybody interested in technology and the creative industry</li>
+					<li>Programmers, Designers, Photographers, Artists, Marketers, Entrepreneurs, Writers</li>
+					<li>If you're interested in meeting and making a connection with others in the local tech industry.</li>
+					<li>If you have something to teach or learn from others related to technology.</li>
+				</ul>
 
+	  			<h2>BarCamp Anyone?</h2>
+	  			<p>Once a year in October, we flock to different venues in the downtown area and put together a BarCamp Event, with lots of speakers, demos and fun. This year's BarCamp event will be on Saturday, October 5th. You can go to the <a href="http://barcampdeland.org">BarCamp Deland</a> website to learn more about that event.</p>
+		  	</article>
 
+		  </div>
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="http://placehold.it/500x500" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Sign up today</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="http://placehold.it/500x500" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="http://placehold.it/500x500" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div><!-- /.carousel -->
+		  <aside class="span4">
 
+		  	<article>
+	  			<h2>Next meeting</h2>
+	  			<a href="http://www.delandabbey.com/"><img src="images/sponsors/abbey.png"></a>
+	  			<p>Our next meeting will be May 23rd,<br />
+	  			6:30-8:30 p.m. at The Abbey.<br />
+					<strong>Map:</strong> <a href="http://maps.google.com/maps?q=117+North+Woodland+Boulevard+Deland+FL">117 North Woodland Boulevard</a>
+	  			</p>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src="https://secure.meetup.com/971750872209871557/script/api/mu.btns.js?id=gjhkfsotrgdnfudgl9orq9q9jm";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","mu-bootjs");</script>
 
+					<a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/events/117161532/" data-event="117161532" class="mu-rsvp-btn">RSVP</a>
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+		  	</article>
 
-    <div class="container marketing">
+		  	<article>
+	  			<h2>Join our mailing list</h2>
+	  			<p>Get notifications of our meetings and events. Sign up to our Mailing list. And don't worry, signing up for this list will also notify you about the <a href="http://barcampdeland.org">BarCamp Deland</a> annual event.</p>
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="span4">
-          <img class="img-circle" data-src="http://placehold.it/140x140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-        <div class="span4">
-          <img class="img-circle" data-src="http://placehold.it/500x500">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-        <div class="span4">
-          <img class="img-circle" data-src="http://placehold.it/500x500">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-      </div><!-- /.row -->
+					<!-- Begin MailChimp Signup Form -->
+					<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+					<div id="mc_embed_signup">
+					<form action="http://barcampdeland.us5.list-manage2.com/subscribe/post?u=8a6e060c4c49d4fa2a3a904c3&amp;id=1703239c8f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+						<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+					</form>
+					</div>
+					<!--End mc_embed_signup-->
+		  	</article>
 
+			<h2>Parking</h2>
+			<p>Parking is available in many places throughout the Downtown Deland area. Click on the button for a map.</p>
+			<a class="btn btn-warning" data-toggle="modal" href="#parking" id="parkingbtn" >Parking</a>
 
-      <!-- START THE FEATURETTES -->
+			<div class="modal hide fade" id="parking">
+			  <div class="modal-body">
+			    <p><img src="/images/misc/parking-downtowndeland.png" /></p>
+			  </div>
+			</div>
 
-      <hr class="featurette-divider">
+		  </aside>
+		</section><!-- content -->
 
-      <div class="featurette">
-        <img class="featurette-image pull-right" src="http://placehold.it/500x500">
-        <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="featurette">
-        <img class="featurette-image pull-left" src="http://placehold.it/500x500">
-        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="featurette">
-        <img class="featurette-image pull-right" src="http://placehold.it/500x500">
-        <h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+		<footer class="group">
+			<section>
+	  		<div class="socialmediaicons"></div>
+			</section>
+     </footer>
 
     </div><!-- /.container -->
+
+	    <!-- _Underscore templates -->
+
+	    <script type="text/template" id="socialicons_tmp">
+	    <span class="title">join the movement: </span>
+		  <ul class="group">
+				<% _.each( socialmedia, function(item){ %>
+		      <li><a href="<%-item.url%>"><img class="icon" src="images/socialmedia/<%-item.shortname%>.png" alt="<%-item.shortname%> icon" /></a></li>
+				<% }); %>
+		  </ul>
+		</script>
 
 		<script src="_/components/js/jquery.js"></script>
 		<script src="_/components/js/bootstrap-transition.js"></script>
@@ -180,15 +123,7 @@
 		<script src="_/components/js/bootstrap-carousel.js"></script>
 		<script src="_/components/js/bootstrap-typeahead.js"></script>
 		<script src="_/components/js/bootstrap-affix.js"></script>
-
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.3/underscore-min.js"></script>
     <script src="_/js/myscript.js"></script>
-    <script>
-      !function ($) {
-        $(function(){
-          // carousel demo
-          $('#myCarousel').carousel()
-        })
-      }(window.jQuery)
-    </script>
   </body>
 </html>
