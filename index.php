@@ -24,8 +24,29 @@
 
 		<section id="content" class="row-fluid">
 		  <div id="main" class="span8">
+
+
+	  			<h2 style="border-bottom: 1px dotted #CCC;">Speaking at Next Meeting--Thursday, May 23rd</h2>
+
+					<h3>Process from the Crypt <span class="small">with Clark Orr</span></h3>
+					<p><img style="padding-right:12px;" class="pull-left img-rounded" src="images/speakers/speaker_clarkorr.jpg" alt="Photo of Clark Orr">
+						Clark will be taking us through his design and illustration process from it's beginning to it's inevitable END! See how his rough pencil sketches transform into fully realized digital illustrations, set out to HAUNT the eyeballs of the masses.</p>
+
+					<h3>What's in your camera bag...Do you Need it? <span class="small">with Christian Garces</span></h3>
+					<p><img style="padding-right:12px;" class="pull-left img-rounded" src="images/speakers/speaker_christiangarces.jpg" alt="Photo of Ray Villalobos">
+					Wether your a hobbyist or a professional photographer, we always carry things we dont need in our bags besides our cameras, join me as I talk about my experiences and how a disorganized bag can get you into trouble. With just a little bit of planning we can overcome even the worst of conditions.</p>
+
+					<h3>Building your first Facebook App <span class="small">with Ray Villalobos</span></h3>
+					<p><img style="padding-right:12px;" class="pull-left img-rounded" src="images/speakers/speaker_rayvillalobos.jpg" alt="Photo of Ray Villalobos">
+						With over 1 billion users, Facebook has become the most powerful social network on the web. Most companies have already taken advantage of business pages, but how do you take it to the next level. Ray Villalobos, Staff Author for lynda.com talks about what it takes to build your own Facebook Application. He'll walk you through setting up your app space and how to access the social graph using the JavaScript or PHP SDKs. It's easier than you think.</p>
+
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src="https://secure.meetup.com/971750872209871557/script/api/mu.btns.js?id=gjhkfsotrgdnfudgl9orq9q9jm";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","mu-bootjs");</script>
+
+					<a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/events/117161532/" data-event="117161532" class="mu-rsvp-btn">RSVP</a>
+
+
 		  	<article>
-	  			<h1>Welcome</h1>
+	  			<h1>Who are we?</h1>
 	  			<p>Tech Deland is a group of technology enthusiasts in the Downtown Deland area meeting once a month to encourage a better understanding of technology. We do this by sharing what we know about technology with others.</p>
 	  			<p>The group encourages learning in all types of technology including Photography, Graphic Design, Web Design, Web Development and more. We dream of Downtown Deland one day becoming a place that's well known for a thriving tech scene.</p>
 

@@ -1,3 +1,18 @@
+/* @override 
+	http://s.techdeland.com/_/css/mystyles.css */
+.group:before,
+.group:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
 body {
   background: url('../../images/misc/colorbars.png') top center repeat-x, #eee7d5;
   background: ;
@@ -158,11 +173,4 @@ footer section {
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 20px;
-}
-.nav .active {
-  line-height: 20px !important;
-}
-.small {
-  font-size: 1rem;
-  color: #268BD2;
 }
