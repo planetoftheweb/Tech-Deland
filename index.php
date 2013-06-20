@@ -30,19 +30,19 @@
 
 	  			<h2 class="dotted">Speaking at Next Meeting--Thursday, June 27th</h2>
 
+					<h3>What's new in Adobe Photoshop & Lightroom CC <span class="small">with <a href="http://iviewsource.com">Ray Villalobos</a></span></h3>
+					<p><a href="http://iviewsource.com"><img style="padding-right:12px;" class="pull-left img-rounded speaker" src="images/speakers/speaker_rayv.jpg" alt="Photo of Ray Villalobos"></a>
+					<p>Now that Adobe has released all of their major products into the wild, what are some of the new features available for photographers. Ray Villalobos, Staff Author for lynda.com will show you some of the new features and updates in Adobe Photoshop and Adobe Lightroom that will help you work faster and more efficiently. Answering questions like Should I Upgrade? Is the cloud a good thing? Is Adobe the next <a href="http://terminator.wikia.com/wiki/Cyberdyne_Systems">Cyberdyne systems</a>?</p>
+
 					<h3>How to run usability tests <span class="small">with <a href="http://eddiejames.com/">Eddie James</a></span></h3>
 					<p><a href="http://eddiejames.com/"><img style="padding-right:12px;" class="pull-left img-rounded speaker" src="images/speakers/speaker_eddiejames.jpg" alt="Photo of Eddie James"></a>
 					<p>Running your own usability tests has never been easier with the many tools available online that offer quick recruiting of users, easy setup and rapid analysis.</p>
 					<p>But as easy as these tools are, if you don't design your test as carefully as you designed what you are testing, you can end up with bad data that can lead to bad design and business decisions.</p>
 					<p>Eddie James will show you how to use two of the leading tools for diy usability testing, Loop11 and usertesting.com to set up and run your usability tests to get the information you need focusing on developing a test plan.</p>
 
-					<h3>Write a book <span class="small">with <a href="http://www.joedissmeyer.com/">Joe Dissmeyer</a></span></h3>
-					<p><a href="http://www.joedissmeyer.com/"><img style="padding-right:12px;" class="pull-left img-rounded speaker" src="images/speakers/speaker_joedissmeyer.jpg" alt="Photo of Joe Dissmeyer"></a>
-					<p>Writing a book can be a challenging, but rewarding opportunity, but just how do you get started? Should you go with a publisher or self publish? Joe Dissmeyer...Husband, father, author and 100% authentic I.T. Geek shows you what it takes to get published.</p>
-
-					<h3>What's new in Adobe Photoshop & Lightroom CC <span class="small">with <a href="http://iviewsource.com">Ray Villalobos</a></span></h3>
-					<p><a href="http://iviewsource.com"><img style="padding-right:12px;" class="pull-left img-rounded speaker" src="images/speakers/speaker_rayv.jpg" alt="Photo of Ray Villalobos"></a>
-					<p>Now that Adobe has released all of their major products into the wild, what are some of the new features available for photographers. Ray Villalobos, Staff Author for lynda.com will show you some of the new features and updates in Adobe Photoshop and Adobe Lightroom that will help you work faster and more efficiently. Answering questions like Should I Upgrade? Is the cloud a good thing? Is Adobe the next <a href="http://terminator.wikia.com/wiki/Cyberdyne_Systems">Cyberdyne systems</a>?</p>
+					<h3>Rapid Responsive Prototyping Workflow<span class="small">with <a href="http://www.iviewsource.com/">Ray Villalobos</a></span></h3>
+					<p><a href="http://iviewsource.com"><img style="padding-right:12px;" class="pull-left img-rounded speaker" src="images/logos/bootstraplogo.jpg" alt="Bootstrap logo"></a>
+					<p>Prototyping a website means getting putting together a working example quickly. Modern tools can make that a lot easier. In this talk, Ray Villalobos, Staff author for lynda.com will show you how to use a combination of tools, including git, heroku, bootstrap and emmet to quickly put together and pushing working examples of your websites to the cloud. In the process, you'll learn a modern workflow for deploying websites with version control and other tools of the rapid-prototyping trade.</p>
 
 					<a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/events/120041652/" data-event="120041652" class="mu-rsvp-btn">RSVP</a>
 
