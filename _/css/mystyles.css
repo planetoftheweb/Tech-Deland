@@ -166,3 +166,14 @@ footer section {
   font-size: 1rem;
   color: #268BD2;
 }
+.dotted {
+  border-bottom: 1px dotted #CCC;
+}
+section#content h3 {
+  line-height: 90%;
+  margin-bottom: 10px;
+}
+img.speaker {
+  width: 150px;
+  border-radius: 10px;
+}

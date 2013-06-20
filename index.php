@@ -5,63 +5,65 @@
     <title>Tech Deland</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="_/css/bootstrap.css" rel="stylesheet">
-    <link href="_/css/mystyles.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+		<link href="_/css/mystyles.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900' rel='stylesheet' type='text/css'>
 
   </head>
 
   <body>
-
+<div class="container">
+	
+</div>
   	<header class="group">
+
   		<div id="branding">
   			<a href="index.php"><img src="images/logos/techdelandlogo_wide.svg" alt="Tech Deland logo"></a>
   		</div>
   		<div class="socialmediaicons desktop"></div>
   	</header>
 
-  	<section id="hero" class="group"></section>
+  	<section id="hero" class="group hidden-phone"></section>
 
 		<section id="content" class="row-fluid">
 		  <div id="main" class="span8">
 
+	  			<h2 class="dotted">Speaking at Next Meeting--Thursday, June 27th</h2>
 
-	  			<h2 style="border-bottom: 1px dotted #CCC;">Speaking at Next Meeting--Thursday, May 23rd</h2>
+					<h3>How to run usability tests <span class="small">with <a href="http://eddiejames.com/">Eddie James</a></span></h3>
+					<p><a href="http://eddiejames.com/"><img style="padding-right:12px;" class="pull-left img-rounded speaker" src="images/speakers/speaker_eddiejames.jpg" alt="Photo of Eddie James"></a>
+					<p>Running your own usability tests has never been easier with the many tools available online that offer quick recruiting of users, easy setup and rapid analysis.</p>
+					<p>But as easy as these tools are, if you don't design your test as carefully as you designed what you are testing, you can end up with bad data that can lead to bad design and business decisions.</p>
+					<p>Eddie James will show you how to use two of the leading tools for diy usability testing, Loop11 and usertesting.com to set up and run your usability tests to get the information you need focusing on developing a test plan.</p>
 
-					<h3>Process from the Crypt <span class="small">with Clark Orr</span></h3>
-					<p><img style="padding-right:12px;" class="pull-left img-rounded" src="images/speakers/speaker_clarkorr.jpg" alt="Photo of Clark Orr">
-						Clark will be taking us through his design and illustration process from it's beginning to it's inevitable END! See how his rough pencil sketches transform into fully realized digital illustrations, set out to HAUNT the eyeballs of the masses.</p>
+					<h3>Write a book <span class="small">with <a href="http://www.joedissmeyer.com/">Joe Dissmeyer</a></span></h3>
+					<p><a href="http://www.joedissmeyer.com/"><img style="padding-right:12px;" class="pull-left img-rounded speaker" src="images/speakers/speaker_joedissmeyer.jpg" alt="Photo of Joe Dissmeyer"></a>
+					<p>Writing a book can be a challenging, but rewarding opportunity, but just how do you get started? Should you go with a publisher or self publish? Joe Dissmeyer...Husband, father, author and 100% authentic I.T. Geek shows you what it takes to get published.</p>
 
-					<h3>What's in your camera bag...Do you Need it? <span class="small">with Christian Garces</span></h3>
-					<p><img style="padding-right:12px;" class="pull-left img-rounded" src="images/speakers/speaker_christiangarces.jpg" alt="Photo of Ray Villalobos">
-					Wether your a hobbyist or a professional photographer, we always carry things we dont need in our bags besides our cameras, join me as I talk about my experiences and how a disorganized bag can get you into trouble. With just a little bit of planning we can overcome even the worst of conditions.</p>
+					<h3>What's new in Adobe Photoshop & Lightroom CC <span class="small">with <a href="http://iviewsource.com">Ray Villalobos</a></span></h3>
+					<p><a href="http://iviewsource.com"><img style="padding-right:12px;" class="pull-left img-rounded speaker" src="images/speakers/speaker_rayv.jpg" alt="Photo of Ray Villalobos"></a>
+					<p>Now that Adobe has released all of their major products into the wild, what are some of the new features available for photographers. Ray Villalobos, Staff Author for lynda.com will show you some of the new features and updates in Adobe Photoshop and Adobe Lightroom that will help you work faster and more efficiently. Answering questions like Should I Upgrade? Is the cloud a good thing? Is Adobe the next <a href="http://terminator.wikia.com/wiki/Cyberdyne_Systems">Cyberdyne systems</a>?</p>
 
-					<h3>Building your first Facebook App <span class="small">with Ray Villalobos</span></h3>
-					<p><img style="padding-right:12px;" class="pull-left img-rounded" src="images/speakers/speaker_rayvillalobos.jpg" alt="Photo of Ray Villalobos">
-						With over 1 billion users, Facebook has become the most powerful social network on the web. Most companies have already taken advantage of business pages, but how do you take it to the next level. Ray Villalobos, Staff Author for lynda.com talks about what it takes to build your own Facebook Application. He'll walk you through setting up your app space and how to access the social graph using the JavaScript or PHP SDKs. It's easier than you think.</p>
+					<a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/events/120041652/" data-event="120041652" class="mu-rsvp-btn">RSVP</a>
 
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src="https://secure.meetup.com/971750872209871557/script/api/mu.btns.js?id=gjhkfsotrgdnfudgl9orq9q9jm";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","mu-bootjs");</script>
+			  	<article>
+		  			<h1>Who are we?</h1>
+		  			<p>Tech Deland is a group of technology enthusiasts in the Downtown Deland area meeting once a month to encourage a better understanding of technology. We do this by sharing what we know about technology with others.</p>
+		  			<p>The group encourages learning in all types of technology including Photography, Graphic Design, Web Design, Web Development and more. We dream of Downtown Deland one day becoming a place that's well known for a thriving tech scene.</p>
+		  		</article>
 
-					<a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/events/117161532/" data-event="117161532" class="mu-rsvp-btn">RSVP</a>
-
-
-		  	<article>
-	  			<h1>Who are we?</h1>
-	  			<p>Tech Deland is a group of technology enthusiasts in the Downtown Deland area meeting once a month to encourage a better understanding of technology. We do this by sharing what we know about technology with others.</p>
-	  			<p>The group encourages learning in all types of technology including Photography, Graphic Design, Web Design, Web Development and more. We dream of Downtown Deland one day becoming a place that's well known for a thriving tech scene.</p>
-
-		  	<article>
-	  			<h2>Get Busy!</h2>
-	  			<p>If you want to keep up with what's going on with the group, <a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/">join our meetup group</a>, <a href="http://www.twitter.com/barcampdeland">follow us on twitter</a> or sign up for our email list on the sidebar to the right. If you're in facebook, you can also <a href="http://www.facebook.com/barcampdeland">join our FaceBook group</a>.</p>
-		  	</article>
+			  	<article>
+		  			<h2>Get Busy!</h2>
+		  			<p>If you want to keep up with what's going on with the group, <a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/">join our meetup group</a>, <a href="http://www.twitter.com/barcampdeland">follow us on twitter</a> or sign up for our email list on the sidebar to the right. If you're in facebook, you can also <a href="http://www.facebook.com/barcampdeland">join our FaceBook group</a>.</p>
+			  	</article>
 
 				<h2>Who should come?</h2>
-				<ul>
-					<li>Anybody interested in technology and the creative industry</li>
-					<li>Programmers, Designers, Photographers, Artists, Marketers, Entrepreneurs, Writers</li>
-					<li>If you're interested in meeting and making a connection with others in the local tech industry.</li>
-					<li>If you have something to teach or learn from others related to technology.</li>
-				</ul>
+					<ul>
+						<li>Anybody interested in technology and the creative industry</li>
+						<li>Programmers, Designers, Photographers, Artists, Marketers, Entrepreneurs, Writers</li>
+						<li>If you're interested in meeting and making a connection with others in the local tech industry.</li>
+						<li>If you have something to teach or learn from others related to technology.</li>
+					</ul>
 
 	  			<h2>BarCamp Anyone?</h2>
 	  			<p>Once a year in October, we flock to different venues in the downtown area and put together a BarCamp Event, with lots of speakers, demos and fun. This year's BarCamp event will be on Saturday, October 5th. You can go to the <a href="http://barcampdeland.org">BarCamp Deland</a> website to learn more about that event.</p>
@@ -73,14 +75,13 @@
 
 		  	<article>
 	  			<h2>Next meeting</h2>
-	  			<a href="http://www.delandabbey.com/"><img src="images/sponsors/abbey.png"></a>
-	  			<p>Our next meeting will be May 23rd,<br />
-	  			6:30-8:30 p.m. at The Abbey.<br />
-					<strong>Map:</strong> <a href="http://maps.google.com/maps?q=117+North+Woodland+Boulevard+Deland+FL">117 North Woodland Boulevard</a>
+	  			<a href="http://www.cafedavincideland.com/"><img src="images/sponsors/cafedavinci.png"></a>
+	  			<p>Our next meeting will be June 27th,<br /> 6:30-8:30 p.m. at Cafe DaVinci<br />
+					<strong>Map:</strong> <a href="http://maps.google.com/maps?q=112+W+Georgia+Ave+Deland+FL">117 North Woodland Boulevard</a>
 	  			</p>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src="https://secure.meetup.com/971750872209871557/script/api/mu.btns.js?id=gjhkfsotrgdnfudgl9orq9q9jm";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","mu-bootjs");</script>
 
-					<a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/events/117161532/" data-event="117161532" class="mu-rsvp-btn">RSVP</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src="https://secure.meetup.com/971750872209871557/script/api/mu.btns.js?id=gjhkfsotrgdnfudgl9orq9q9jm";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","mu-bootjs");</script>
+					<a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/events/120041652/" data-event="120041652" class="mu-rsvp-btn">RSVP</a>
 
 		  	</article>
 
@@ -132,20 +133,7 @@
 		</script>
 
 		<script src="_/components/js/jquery.js"></script>
-		<script src="_/components/js/bootstrap-modal.js"></script>
-
-		<script src="_/components/js/bootstrap-transition.js"></script>
-		<script src="_/components/js/bootstrap-alert.js"></script>
-		<script src="_/components/js/bootstrap-dropdown.js"></script>
-		<script src="_/components/js/bootstrap-scrollspy.js"></script>
-		<script src="_/components/js/bootstrap-tab.js"></script>
-		<script src="_/components/js/bootstrap-tooltip.js"></script>
-		<script src="_/components/js/bootstrap-popover.js"></script>
-		<script src="_/components/js/bootstrap-button.js"></script>
-		<script src="_/components/js/bootstrap-collapse.js"></script>
-		<script src="_/components/js/bootstrap-carousel.js"></script>
-		<script src="_/components/js/bootstrap-typeahead.js"></script>
-		<script src="_/components/js/bootstrap-affix.js"></script>
+		<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.3/underscore-min.js"></script>
     <script src="_/js/myscript.js"></script>
 
