@@ -39,7 +39,7 @@ var vendorList = [{
 }];
 
 var nextMeeting = {
-	date: 'Thursday, June 27th',
+	date: 'Thursday, July 25th',
 	time: '6-9pm',
   where: vendorList[1]
 };
