@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  	<header class="group">
+  		<div id="branding">
+  			<a href="index.php"><img src="images/logos/techdelandlogo_wide.svg" alt="<%= title %> logo"></a>
+  		</div>
+
+	  	<div class="socialmediaicons hidden-phone">
+	    	<span class="title">join the movement:</span>
+
+				<ul class="group">
+					<% social.forEach(function(item) { %>
+					<li><a href="<%= item.url %>"><img class="icon" src="<%= item.img %>" alt="icon for <%= item.shortname %>" /></a></li>
+					<% }); %>
+				</ul>
+			</div>
+
+  	</header><!-- header -->
+  	<section id="hero" class="group hidden-phone">
+  	</section><!-- hero -->
+  	<div class="container">
+
+		<section id="content" class="row-fluid">
+		  <div id="main" class="span8">
+
+			<h2 class="dotted">Speaking at Next Meeting--Thursday, June 27th</h2>
+
+				<div class="speakers">
+					<% speakers.forEach(function(item) { %>
+						<div class="item">
+							<h3><%= item.title %>
+							<span class="small">with <a href="<%=item.link%>">
+								<%=item.name%></a></span></h3>
+								<p><a href="<%= item.link %>"><img class="speaker" src="<%=item.img%>" alt="Photo of <%= item.name %>"></a></p>
+							<p><%= item.description %></p>								
+						</div>
+					<% }); %>
+				</div>
+
+					<a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/events/120041652/" data-event="120041652" class="mu-rsvp-btn">RSVP</a>
+
+			  	<article>
+		  			<h1>Who are we?</h1>
+		  			<p>Tech Deland is a group of technology enthusiasts in the Downtown Deland area meeting once a month to encourage a better understanding of technology. We do this by sharing what we know about technology with others.</p>
+		  			<p>The group encourages learning in all types of technology including Photography, Graphic Design, Web Design, Web Development and more. We dream of Downtown Deland one day becoming a place that's well known for a thriving tech scene.</p>
+		  		</article>
+
+			  	<article>
+		  			<h2>Get Busy!</h2>
+		  			<p>If you want to keep up with what's going on with the group, <a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/">join our meetup group</a>, <a href="http://www.twitter.com/barcampdeland">follow us on twitter</a> or sign up for our email list on the sidebar to the right. If you're in facebook, you can also <a href="http://www.facebook.com/barcampdeland">join our FaceBook group</a>.</p>
+			  	</article>
+
+				<h2>Who should come?</h2>
+					<ul>
+						<li>Anybody interested in technology and the creative industry</li>
+						<li>Programmers, Designers, Photographers, Artists, Marketers, Entrepreneurs, Writers</li>
+						<li>If you're interested in meeting and making a connection with others in the local tech industry.</li>
+						<li>If you have something to teach or learn from others related to technology.</li>
+					</ul>
+
+	  			<h2>BarCamp Anyone?</h2>
+	  			<p>Once a year in October, we flock to different venues in the downtown area and put together a BarCamp Event, with lots of speakers, demos and fun. This year's BarCamp event will be on Saturday, October 5th. You can go to the <a href="http://barcampdeland.org">BarCamp Deland</a> website to learn more about that event.</p>
+		  	</article>
+
+		  </div>
+
+		  <aside class="span4">
+
+		  	<article>
+	  			<h2>Next meeting</h2>
+
+	  			<a href="<%= meeting.where.link %>"><img src="<%= meeting.where.img %>"></a>
+	  			<p>Our next meeting will be <%= meeting.date %>,<br /> <%= meeting.time %> at <%= meeting.where.name %><br />
+					<strong>Map:</strong> <a href="<%= meeting.where.mapURL %>"><%= meeting.where.address %></a>
+	  			</p>
+
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src="https://secure.meetup.com/971750872209871557/script/api/mu.btns.js?id=gjhkfsotrgdnfudgl9orq9q9jm";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","mu-bootjs");</script>
+					<a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/events/120041652/" data-event="120041652" class="mu-rsvp-btn">RSVP</a>
+
+		  	</article>
+
+		  	<article>
+	  			<h2>Join our mailing list</h2>
+	  			<p>Get notifications of our meetings and events. Sign up to our Mailing list. And don't worry, signing up for this list will also notify you about the <a href="http://barcampdeland.org">BarCamp Deland</a> annual event.</p>
+
+					<!-- Begin MailChimp Signup Form -->
+					<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+					<div id="mc_embed_signup">
+					<form action="http://barcampdeland.us5.list-manage2.com/subscribe/post?u=8a6e060c4c49d4fa2a3a904c3&amp;id=1703239c8f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+						<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+					</form>
+					</div>
+					<!--End mc_embed_signup-->
+		  	</article>
+
+			<h2>Parking</h2>
+			<p>Parking is available in many places throughout the Downtown Deland area. Click on the button for a map.</p>
+			<a class="btn btn-warning" data-toggle="modal" href="#parking" id="parkingbtn" >Parking</a>
+
+			<div class="modal hide fade" id="parking">
+			  <div class="modal-body">
+			    <p><img src="/images/misc/parking-downtowndeland.png" /></p>
+			  </div>
+			</div>
+
+		  </aside>
+		</section><!-- content -->
+  	</div><!-- container -->
+
+		<footer class="group">
+			<section>
+	  	<div class="socialmediaicons">
+	    	<span class="title">join the movement:</span>
+				<ul class="group">
+					<% social.forEach(function(item) { %>
+					<li><a href="<%= item.url %>"><img class="icon" src="<%= item.img %>" alt="icon for <%= item.shortname %>" /></a></li>
+					<% }); %>
+				</ul>
+			</div>
+			</section>
+     </footer><!-- footer group -->
+
+
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  	<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-40634325-1', 'techdeland.com');
+		ga('send', 'pageview');
+	</script>
+
+  </body>
+</html>
