@@ -41,7 +41,7 @@ var vendorList = [{
 var nextMeeting = {
 	date: 'Thursday, July 25th',
 	time: '6-9pm',
-  where: vendorList[1]
+  where: '' //vendorList[1]
 };
 
 var socialMedia = [{
@@ -61,7 +61,7 @@ var socialMedia = [{
 exports.index = function(req, res){
   res.render('index', { 
   	title: 'Tech Deland',
-  	speakers: speakersList,
+  	speakers: '',
   	meeting: nextMeeting,
   	social: socialMedia
   });

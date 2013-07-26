@@ -32,7 +32,8 @@
 		<section id="content" class="row-fluid">
 		  <div id="main" class="span8">
 
-			<h2 class="dotted">Speaking at Next Meeting--<%= meeting.date %></h2>
+				<% if (speakers.length > 0) { %>
+				<h2 class="dotted">Speaking at Next Meeting--<%= meeting.date %></h2>
 
 				<div class="speakers">
 					<% speakers.forEach(function(item) { %>
@@ -45,31 +46,30 @@
 						</div>
 					<% }); %>
 				</div>
+				<% } %>
 
-					<a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/events/120041652/" data-event="120041652" class="mu-rsvp-btn">RSVP</a>
+		  	<article>
+	  			<h1>Who are we?</h1>
+	  			<p>Tech Deland is a group of technology enthusiasts in the Downtown Deland area meeting once a month to encourage a better understanding of technology. We do this by sharing what we know about technology with others.</p>
+	  			<p>The group encourages learning in all types of technology including Photography, Graphic Design, Web Design, Web Development and more. We dream of Downtown Deland one day becoming a place that's well known for a thriving tech scene.</p>
+	  		</article>
 
-			  	<article>
-		  			<h1>Who are we?</h1>
-		  			<p>Tech Deland is a group of technology enthusiasts in the Downtown Deland area meeting once a month to encourage a better understanding of technology. We do this by sharing what we know about technology with others.</p>
-		  			<p>The group encourages learning in all types of technology including Photography, Graphic Design, Web Design, Web Development and more. We dream of Downtown Deland one day becoming a place that's well known for a thriving tech scene.</p>
-		  		</article>
-
-			  	<article>
-		  			<h2>Get Busy!</h2>
-		  			<p>If you want to keep up with what's going on with the group, <a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/">join our meetup group</a>, <a href="http://www.twitter.com/barcampdeland">follow us on twitter</a> or sign up for our email list on the sidebar to the right. If you're in facebook, you can also <a href="http://www.facebook.com/barcampdeland">join our FaceBook group</a>.</p>
-			  	</article>
-
-				<h2>Who should come?</h2>
-					<ul>
-						<li>Anybody interested in technology and the creative industry</li>
-						<li>Programmers, Designers, Photographers, Artists, Marketers, Entrepreneurs, Writers</li>
-						<li>If you're interested in meeting and making a connection with others in the local tech industry.</li>
-						<li>If you have something to teach or learn from others related to technology.</li>
-					</ul>
-
-	  			<h2>BarCamp Anyone?</h2>
-	  			<p>Once a year in October, we flock to different venues in the downtown area and put together a BarCamp Event, with lots of speakers, demos and fun. This year's BarCamp event will be on Saturday, October 5th. You can go to the <a href="http://barcampdeland.org">BarCamp Deland</a> website to learn more about that event.</p>
+		  	<article>
+	  			<h2>Get Busy!</h2>
+	  			<p>If you want to keep up with what's going on with the group, <a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/">join our meetup group</a>, <a href="http://www.twitter.com/barcampdeland">follow us on twitter</a> or sign up for our email list on the sidebar to the right. If you're in FaceBook, you can also <a href="http://www.facebook.com/barcampdeland">join our FaceBook group</a>.</p>
 		  	</article>
+
+			<h2>Who should come?</h2>
+				<ul>
+					<li>Anybody interested in technology and the creative industry</li>
+					<li>Programmers, Designers, Photographers, Artists, Marketers, Entrepreneurs, Writers</li>
+					<li>If you're interested in meeting and making a connection with others in the local tech industry.</li>
+					<li>If you have something to teach or learn from others related to technology.</li>
+				</ul>
+
+  			<h2>BarCamp Anyone?</h2>
+  			<p>Once a year in October, we flock to different venues in the downtown area and put together a BarCamp Event, with lots of speakers, demos and fun. This year's BarCamp event will be on Saturday, October 5th. You can go to the <a href="http://barcampdeland.org">BarCamp Deland</a> website to learn more about that event.</p>
+	  	</article>
 
 		  </div>
 
@@ -78,13 +78,19 @@
 		  	<article>
 	  			<h2>Next meeting</h2>
 
+					<% if (meeting.length > 0) { %>
 	  			<a href="<%= meeting.where.link %>"><img src="<%= meeting.where.img %>"></a>
-	  			<p>Our next meeting will be <%= meeting.date %>,<br /> <%= meeting.time %> at <%= meeting.where.name %><br />
-					<strong>Map:</strong> <a href="<%= meeting.where.mapURL %>"><%= meeting.where.address %></a>
-	  			</p>
+					<% } %>
+	  			<p>Our next meeting will be <%= meeting.date %>,<br /> <%= meeting.time %>
 
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src="https://secure.meetup.com/971750872209871557/script/api/mu.btns.js?id=gjhkfsotrgdnfudgl9orq9q9jm";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","mu-bootjs");</script>
-					<a href="http://www.meetup.com/Tech-Deland-bringing-together-people-technology/events/120041652/" data-event="120041652" class="mu-rsvp-btn">RSVP</a>
+					<% if (meeting.length > 0) { %>
+	  			at <%= meeting.where.name %><br />
+					<% } %>
+	
+					<% if (meeting.length > 0) { %>
+					<strong>Map:</strong> <a href="<%= meeting.where.mapURL %>"><%= meeting.where.address %></a>
+					<% } %>
+	  			</p>
 
 		  	</article>
 
