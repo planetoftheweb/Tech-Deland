@@ -1,0 +1,16 @@
+<article class="speakerslist">
+  <% if (speakers.length > 0) { %>
+  <h2 class="dotted">Speaking at Next Meeting--<%= meeting.date %></h2>
+  <div class="speakers">
+    <% speakers.forEach(function(item) { %>
+      <div class="item">
+        <h3><%= item.title %>
+        <span class="small">with <a href="<%=item.link%>">
+          <%=item.name%></a></span></h3>
+          <p><a href="<%= item.link %>"><img class="speaker" src="<%=item.img%>" alt="Photo of <%= item.name %>"></a></p>
+        <p><%= item.description %></p>                
+      </div>
+    <% }); %>
+  </div><!-- speakers -->
+  <% } %>
+</article>
