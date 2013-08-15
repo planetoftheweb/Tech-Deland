@@ -38,7 +38,7 @@ app.locals({
     },{
     name: "BrickHouse Grill",
     link: "http://www.brickhousegrill.com/",
-    img: "images/sponsors/cafedavinci.png",
+    img: "images/photos/brickhousephoto.jpg",
     mapURL: "http://maps.google.com/maps?q=142+North+Woodland+Boulevard+Deland+FL",
     address: "142 North Woodland Boulevard"
   }]
@@ -46,23 +46,20 @@ app.locals({
 
 app.locals({
   speakers: [{
-  title : "Expectations of entrepreneurship",
-  name: "Pam Webber",
-  link: "http://www.roarwebdesign.com/",
-  img: "images/speakers/speaker_pamwebber.jpg",
-  description: "There are lots of resources for entrepreneurs out there, but few of them show you how to harness the power of a peer group, learn to expect the unexpected and rely on valuable business assets you may not consider. Pam Webber, a two tiered Stetson University alumnus, V.P of Strategic Relations and co-owner of Roar Marketing, shows you what it takes to soar through tough challenges and build a great business."
+  title : "The rise of Instructional Design ",
+  name: "Rick Short",
+  link: "http://www.redbubble.com/people/scenicearth",
+  img: "images/speakers/speaker_rickshort.jpg",
+  description: "Instructional Design is an area of technology experiencing rapid growth. Rick Short, a graduate student studying Instructional design and 3D Animation with 21 years of IT experience building web, e-commerce and client server applications talks about how schools, businesses and the private sector are using Instructional Design to help their employees work harder, faster and more efficiently, plus some of the tools of the trade."
   }, {
-    title : "Making a maker space",
-    name: "Dan Lane",
-    link: "#",
-    img: "images/speakers/speaker_danlane.jpg",
-    description: "One of the things this area needs is more resources for technically minded people. It would be great to have a space to meet, learn and have resources like drill presses, 3-d printers and be able to learn more about technology in a Maker/Hacker space. Dan is organizing a group that wants to bring a maker/hacker space into the area. He'll talk to us about the potential location, features and how you can join the effort."
+    title : "Show n' Tell",
+    description: "A new segment. Be prepared to share any cool tech you've been playing around with. Got a new MakerBot tearing up your house? Learned about a new JavaScript library or cool Illustrator shortcut? Let's learn from each other."
   }, {
-    title : "Android Development with Python",
-    name: "Ben Hosmer",
+    title : "What's in an app?",
+    name: "Mark Hawks",
     link: "http://www.brevardtech.org",
-    img: "images/speakers/speaker_benhosmer.jpg",
-    description: "Android mobile application development is the realm of Java programmers right? No way! If you're a Python nerd like me, you'd rather write in beautiful Python than Java any day. I recently had a need to develop a fairly simple android application and found the SL4A, (Scripting Layer for Android) let me run Python on android. This quick presentation will tell you what you need to do to get up and running quickly. I'll demonstrate a simple application in less than ten lines of Python that reads a UPC code."
+    img: "images/speakers/speaker_markhawks.png",
+    description: "Learn some of the differences between iOS, Android etc. Mark Hawks, an Apple Consultant and iOS developer shows you what it takes to get into the App store, start developing iOS apps, where to get started...plus a little Xcode."
   }]
 });
 
@@ -86,7 +83,7 @@ app.locals({
   meeting : {
     date: 'Thursday, August 22nd',
     time: '6-9pm',
-    where: '' //vendorList[1]
+    where: app.locals.vendorList[2]
   }
 });
 

@@ -1,16 +1,17 @@
 <article class="nextmeeting">
   <h2>Next meeting</h2>
 
-  <% if (meeting.length > 0) { %>
+  <% if (meeting.where.link != '') { %>
   <a href="<%= meeting.where.link %>"><img src="<%= meeting.where.img %>"></a>
   <% } %>
+
   <p>Our next meeting will be <%= meeting.date %>,<br /> <%= meeting.time %>
 
-  <% if (meeting.length > 0) { %>
+  <% if (meeting.where.link != '') { %>
   at <%= meeting.where.name %><br />
   <% } %>
 
-  <% if (meeting.length > 0) { %>
+  <% if (meeting.where.link != '') { %>
   <strong>Map:</strong> <a href="<%= meeting.where.mapURL %>"><%= meeting.where.address %></a>
   <% } %>
   </p>
