@@ -1,7 +1,11 @@
 {
-  "name": "Tech Deland",
+  "name": "Tech_Deland",
   "version": "1.0",
   "private": true,
+  "engines": {
+    "node": "0.10.15",
+    "npm":  "1.3.5"
+  }
   "scripts": {
     "start": "node app.js"
   },
