@@ -81,9 +81,9 @@ app.locals({
 
 app.locals({
   meeting : {
-    date: 'Thursday, August 22nd',
+    date: 'Wednesday, September 25th',
     time: '6-9pm',
-    where: app.locals.vendorList[2] // change this to reflect venue
+    where: '' //app.locals.vendorList[2] // change this to reflect venue
   }
 });
 
