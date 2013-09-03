@@ -45,21 +45,22 @@ app.locals({
 });
 
 app.locals({
-  speakers: [{
-  title : "The rise of Instructional Design ",
-  name: "Rick Short",
-  link: "http://www.redbubble.com/people/scenicearth",
-  img: "images/speakers/speaker_rickshort.jpg",
-  description: "Instructional Design is an area of technology experiencing rapid growth. Rick Short, a graduate student studying Instructional design and 3D Animation with 21 years of IT experience building web, e-commerce and client server applications talks about how schools, businesses and the private sector are using Instructional Design to help their employees work harder, faster and more efficiently, plus some of the tools of the trade."
-  }, {
+  speakers: [
+  {
     title : "Show n' Tell",
-    description: "A new segment. Be prepared to share any cool tech you've been playing around with. Got a new MakerBot tearing up your house? Learned about a new JavaScript library or cool Illustrator shortcut? Let's learn from each other."
+    description: "Be prepared to share any cool tech you've been playing around with. Got a new MakerBot tearing up your house? Learned about a new JavaScript library or cool Illustrator shortcut? Let's learn from each other."
   }, {
-    title : "What's in an app?",
-    name: "Mark Hawks",
-    link: "http://www.brevardtech.org",
-    img: "images/speakers/speaker_markhawks.png",
-    description: "Learn some of the differences between iOS, Android etc. Mark Hawks, an Apple Consultant and iOS developer shows you what it takes to get into the App store, start developing iOS apps, where to get started...plus a little Xcode."
+  title : "The Creative Process: Ideas, sketches and artwork",
+  name: "Martha Garzon",
+  link: "http://www.marthagarzon.com/",
+  img: "images/speakers/speaker_marthagarzon.jpg",
+  description: "In this talk, Martha Garzon will share her creative process for commercial and personal illustration projects. Discover how she gets inspired and her techniques to transform ideas into artwork. Martha Garzon is a creative director, educator & web/graphic designer. After studying visual arts at the National University in Bogota, she moved to the US where she acquired a B.A. in Digital Arts from Stetson University. She has been teaching multimedia, web development, photography and design since 2004 and currently works at the Digital Arts Program at Stetson University and at M5 Design Studio."
+  }, {
+    title : "When art goes large",
+    name: "Courtney Canova",
+    link: "http://www.kellycanovaphotography.com/",
+    img: "images/speakers/speaker_courtneycanova.jpg",
+    description: "One distinguishing feature of Downtown Deland are the iconic murals painted throughout the area. These projects aren't a simple endeavour and require planning and careful execution. Award winning artist, photographer and teacher Courtney Canova who painted these murals takes us through his creative process and shows us how tackling a literally huge project is best done one step at a time."
   }]
 });
 
@@ -83,7 +84,7 @@ app.locals({
   meeting : {
     date: 'Wednesday, September 25th',
     time: '6-9pm',
-    where: '' //app.locals.vendorList[2] // change this to reflect venue
+    where: app.locals.vendorList[1] // change this to reflect venue
   }
 });
 
