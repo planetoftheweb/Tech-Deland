@@ -50,16 +50,16 @@ app.locals({
     title : "Show n' Tell",
     description: "Be prepared to share any cool tech you've been playing around with. Got a new MakerBot tearing up your house? Learned about a new JavaScript library or cool Illustrator shortcut? Let's learn from each other."
   }, {
-  title : "The Creative Process: Ideas, sketches and artwork",
-  name: "Martha Garzon",
-  link: "http://www.marthagarzon.com/",
-  img: "images/speakers/speaker_marthagarzon.jpg",
-  description: "In this talk, Martha Garzon will share her creative process for commercial and personal illustration projects. Discover how she gets inspired and her techniques to transform ideas into artwork. Martha Garzon is a creative director, educator & web/graphic designer. After studying visual arts at the National University in Bogota, she moved to the US where she acquired a B.A. in Digital Arts from Stetson University. She has been teaching multimedia, web development, photography and design since 2004 and currently works at the Digital Arts Program at Stetson University and at M5 Design Studio."
+  title : "Wordpress Child Themes, Podcasting &amp; Google Hangouts",
+  name: "Ray Villalobos",
+  link: "http://authoredcontent.com/",
+  img: "images/speakers/speaker_rayvillalobos.jpg",
+  description: "In this talk, Ray Villalobos of Authored Content shows you what it takes to set up a Child theme in Wordpress and explore how you can use the platform for creating a podcast including setting up your RSS feed, using You Tube Hangouts and other issues."
   }, {
-    title : "When art goes large",
-    name: "Courtney Canova",
-    link: "http://www.kellycanovaphotography.com/",
-    img: "images/speakers/speaker_courtneycanova.jpg",
+    title : "Getting started with Angular.js",
+    name: "Ray Villalobos",
+    link: "http://iviewsource.com/",
+    img: "images/speakers/speaker_rayv.jpg",
     description: "One distinguishing feature of Downtown Deland are the iconic murals painted throughout the area. These projects aren't a simple endeavour and require planning and careful execution. Award winning artist, photographer and teacher Courtney Canova who painted these murals takes us through his creative process and shows us how tackling a literally huge project is best done one step at a time."
   }]
 });
@@ -82,9 +82,9 @@ app.locals({
 
 app.locals({
   meeting : {
-    date: 'Wednesday, September 25th',
+    date: 'Thursday, January 23rd',
     time: '6-9pm',
-    where: app.locals.vendorList[1] // change this to reflect venue
+    where: app.locals.vendorList[0] // change this to reflect venue
   }
 });
 
