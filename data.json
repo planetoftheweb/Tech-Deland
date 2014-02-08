@@ -1,0 +1,58 @@
+{
+  "vendorList" : [{
+    "name": "Cafe DaVinci's",
+    "link": "http://www.cafedavincideland.com",
+    "img": "images/sponsors/cafedavinci.png",
+    "mapURL": "http://maps.google.com/maps?q=112+W+Georgia+Ave+Deland+FL",
+    "address": "112 West Georgia Avenue"
+    },{
+    "name": "Deland Abbey",
+    "link": "http://www.delandabbey.com/",
+    "img": "images/sponsors/abbey.png",
+    "mapURL": "http://maps.google.com/maps?q=117+North+Woodland+Boulevard+Deland+FL",
+    "address": "117 North Woodland Boulevard"
+    },{
+    "name": "BrickHouse Grill",
+    "link": "http://www.brickhousegrill.com/",
+    "img": "images/photos/brickhousephoto.jpg",
+    "mapURL": "http://maps.google.com/maps?q=142+North+Woodland+Boulevard+Deland+FL",
+    "address": "142 North Woodland Boulevard"
+  }],
+
+  "speakers": [
+  {
+    "title" : "Show n' Tell",
+    "description": "Be prepared to share any cool tech you've been playing around with. Got a new MakerBot tearing up your house? Learned about a new JavaScript library or cool Illustrator shortcut? Let's learn from each other."
+  }, {
+  "title" : "Wordpress Child Themes, Podcasting &amp; Google Hangouts",
+  "name": "Ray Villalobos",
+  "link": "http://authoredcontent.com/",
+  "img": "images/speakers/speaker_rayvillalobos.jpg",
+  "description": "In this talk, Ray Villalobos of Authored Content shows you what it takes to set up a Child theme in Wordpress and explore how you can use the platform for creating a podcast including setting up your RSS feed, using You Tube Hangouts and other issues."
+  }, {
+    "title" : "Getting started with Angular.js",
+    "name": "Ray Villalobos",
+    "link": "http://iviewsource.com/",
+    "img": "images/speakers/speaker_rayv.jpg",
+    "description": "One distinguishing feature of Downtown Deland are the iconic murals painted throughout the area. These projects aren't a simple endeavour and require planning and careful execution. Award winning artist, photographer and teacher Courtney Canova who painted these murals takes us through his creative process and shows us how tackling a literally huge project is best done one step at a time."
+  }],
+
+  "social" : [{
+    "shortname" : "twitter",
+    "img" : "images/socialmedia/twitter.png",
+    "url" : "http://www.twitter.com/barcampdeland"
+  },{
+    "shortname" : "facebook",
+    "img" : "images/socialmedia/facebook.png",
+    "url" : "http://www.facebook.com/barcampdeland"
+  },{
+    "shortname" : "meetup",
+    "img" : "images/socialmedia/meetup.png",
+    "url" : "http://www.meetup.com/Tech-Deland-bringing-together-people-technology/"
+  }],
+
+  "meeting" : {
+    "date": "Thursday, February 27th",
+    "time": "6-9pm"
+  }
+}
