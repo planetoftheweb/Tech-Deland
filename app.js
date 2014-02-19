@@ -24,7 +24,7 @@ if ('development' == app.get('env')) {
 //Locals
 myData = require('./data.json');
 app.locals(myData);
-app.locals.meeting.where = app.locals.vendorList[1]; // change this to reflect venue
+app.locals.meeting.where = app.locals.vendorList[app.locals.meeting.where]; // change this to reflect venue
 
 app.get('/', routes.index);
 

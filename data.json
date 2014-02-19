@@ -19,22 +19,18 @@
     "address": "142 North Woodland Boulevard"
   }],
 
-  "speakers": [
-  {
-    "title" : "Show n' Tell",
-    "description": "Be prepared to share any cool tech you've been playing around with. Got a new MakerBot tearing up your house? Learned about a new JavaScript library or cool Illustrator shortcut? Let's learn from each other."
-  }, {
-  "title" : "Wordpress Child Themes, Podcasting &amp; Google Hangouts",
-  "name": "Ray Villalobos",
-  "link": "http://authoredcontent.com/",
-  "img": "images/speakers/speaker_rayvillalobos.jpg",
-  "description": "In this talk, Ray Villalobos of Authored Content shows you what it takes to set up a Child theme in Wordpress and explore how you can use the platform for creating a podcast including setting up your RSS feed, using You Tube Hangouts and other issues."
-  }, {
-    "title" : "Getting started with Angular.js",
-    "name": "Ray Villalobos",
+  "speakers": [{
+  "title" : "Connectivity & Faith in the age of the Internet",
+  "name": "Ben Collins",
+  "link": "https://www.facebook.com/wearecollectivechurch",
+  "img": "images/speakers/speaker_bencollins.jpg",
+  "description": "Ben Collins, an entrepreneur in new faith movements and Adjunct professor of Religious Studies, Stetson University has used  technology to merge platforms, cultivate meaning and challenge perceptions of religion. He'll share how, with a minuscule budget he's used tools like HootSuite, Mail Chimp, Evernote and Video platforms for communication, marketing and administrative management. He'll show how it's possible to get a polished product, connect people with a cause, and create buy in"
+    }, {
+    "title" : "UX Design and Agile development",
+    "name": "Kenyon Congdon",
     "link": "http://iviewsource.com/",
-    "img": "images/speakers/speaker_rayv.jpg",
-    "description": "One distinguishing feature of Downtown Deland are the iconic murals painted throughout the area. These projects aren't a simple endeavour and require planning and careful execution. Award winning artist, photographer and teacher Courtney Canova who painted these murals takes us through his creative process and shows us how tackling a literally huge project is best done one step at a time."
+    "img": "images/speakers/speaker_kenyoncongdon.jpg",
+    "description": "Kenyon Congdon is a Senior Analyst with SunGard Public Sector in Lake Mary. He is a usability and user experience specialist and has given over 200 internal UX/UI training sessions. His work succeeds through careful understanding of the target audience and how to communicate with them in a way they not only understood but wanted to hear. Kenyon will discuss upfront UI and UX design and how it fits into an agile development environment."
   }],
 
   "social" : [{
@@ -53,6 +49,7 @@
 
   "meeting" : {
     "date": "Thursday, February 27th",
-    "time": "6-9pm"
+    "time": "6-9pm",
+    "where": 0
   }
 }
