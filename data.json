@@ -20,23 +20,29 @@
   }],
 
   "speakers": [{
-  "title" : "Node & Express.js Workshop",
-  "name": "Ray Villalobos",
-  "link": "http://iviewsource.com",
-  "img": "images/speakers/speaker_rayvillalobos.jpg",
-  "description": "Ray Villalobos, Staff Author for lynda.com will cover the basics of node.js and how to build real websites with the Express.js Framework. This is a recap of Ray's popular Fluent 2014 talk. Come learn about the future of buildling web applications."
-    }, {
-    "title" : "Getting Started with Raspberry Pi",
-    "name": "Scott Moe",
-    "link": "#",
-    "img": "images/speakers/speaker_scottmoe.jpg",
-    "description": "The revolutionary credit card computer that plubs into a standard HDMI port and can ben used in countless electronics and development projects. We'll explore what it takes to get started with the Raspberry Pi and see what you can do with this amazing programmable hardware platform."
+    "title" : "Art in Full Bloom",
+    "name": "Lorenzo Garcia",
+    "shortname" : "Lorenzo_Garcia",
+    "img": "images/speakers/speaker_rayvillalobos.jpg",
+    "description": "Drawing and painting flowers may seem like a first-year art student's assignment, but Lorenzo Garcia brings depth, shadows, light, form and color to new heights with his unique and revolutionary technique of painting on canvas with ceramic glaze. This session is sure to be a hit with mixed media buffs."
+  },{
+    "title" : "Deep Sea Wonders",
+    "name": "Hilary Goldywynn Post",
+    "shortname" : "Hillary_Goldwynn",
+    "img": "images/speakers/speaker_rayvillalobos.jpg",
+    "description": "Hillary is a sophomore art sculpture student at New York University, and has won the major international prizes for painters, including the Divinity Circle and the International Painter's Medal. Hillary's exhibit features paintings that contain only water including waves, deep sea, and river."
+  },{
+    "title" : "The Art of Abstract",
+    "name": "Riley Rudolph Rewington",
+    "shortname" : "Riley_Rewington",
+    "img": "images/speakers/speaker_rayvillalobos.jpg",
+    "description": "The leader of the MMA artistic movement in his hometown of Portland, Riley Rudolph Rewington draws a crowd wherever he goes. Mixing street performance, video, music, and traditional art, Riley has created some of the most unique and deeply poignant abstract works of his generation."
   }],
 
   "social" : [{
     "shortname" : "twitter",
     "img" : "images/socialmedia/twitter.png",
-    "url" : "http://www.twitter.com/barcampdeland"
+    "url" : "https://twitter.com/barcampdeland"
   },{
     "shortname" : "facebook",
     "img" : "images/socialmedia/facebook.png",
@@ -44,7 +50,7 @@
   },{
     "shortname" : "meetup",
     "img" : "images/socialmedia/meetup.png",
-    "url" : "http://www.meetup.com/Tech-Deland-bringing-together-people-technology/"
+    "url" : "http://www.meetup.com/Tech-Deland-bringing-together-people-technology"
   }],
 
   "meeting" : {

@@ -218,3 +218,48 @@ img.speaker {
   border-bottom: 1px dashed #595AB7;
   margin-top: 10px;
 }
+
+
+.rotatorcontainer{
+  width: 278px;
+  height: 175px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.rotator {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: relative;
+}
+
+.animate-enter,
+.animate-leave
+{
+  -webkit-transition: 825ms all;
+  -moz-transition: 825ms all;
+  -ms-transition: 825ms all;
+  -o-transition: 825ms all;
+  transition: 825ms all;
+  position: absolute;
+}
+
+.animate-enter {
+  left: 100%;
+  width: 278px;
+  height: 175px;
+  opacity: 0;
+}
+.animate-enter.animate-enter-active {
+  left: 0;
+  opacity: 1;
+}
+
+.animate-leave {
+  left: 0;
+  opacity: 0;
+}
+.animate-leave.animate-leave-active{
+  left: -100%;
+}

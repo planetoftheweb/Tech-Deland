@@ -1,0 +1,33 @@
+<article class="sponsors" ng-app="rotator">
+  <h2>Sponsors</h2>
+  <p>We receive some awesome support from these great sponsors.</p>
+  <section ng-controller="rotatorController" class="rotatorcontainer">
+    <div ng-switch on="pic" ng-animate=" 'animate' " class="rotator">
+      <div class="item" ng-switch-when="0"><a href="http://www.delandabbey.com/" target="_blank"><img src="images/sponsors/sponsor_abbey.png" alt="Sponsor Logo--Abbey"></a></div>
+      <div class="item" ng-switch-when="1"><a href="http://www.adobe.com/" target="_blank"><img src="images/sponsors/sponsor_adobe.png" alt="Sponsor Logo--Adobe"></a></div>
+      <div class="item" ng-switch-when="2"><a href="http://www.cafedavincideland.com/" target="_blank"><img src="images/sponsors/sponsor_cafedavinci.png" alt="Sponsor Logo--DaVinci"></a></div>
+      <div class="item" ng-switch-when="3"><a href="http://lasallecomputer.com/" target="_blank"><img src="images/sponsors/sponsor_lasalle.png" alt="Sponsor Logo--lasalle"></a></div>
+      <div class="item" ng-switch-when="4"><a href="http://lynda.com" target="_blank"><img src="images/sponsors/sponsor_lynda.png" alt="Sponsor Logo--lynda"></a></div>
+      <div class="item" ng-switch-when="5"><a href="http://mainstreetdeland.org/" target="_blank"><img src="images/sponsors/sponsor_mainstreetdelandassociation.png" alt="Sponsor Logo--Mainstreet Deland Association"></a></div>
+      <div class="item" ng-switch-when="6"><a href="http://oreilly.com/" target="_blank"><img src="images/sponsors/sponsor_oreilly.png" alt="Sponsor Logo--O'Reilly"></a></div>
+    </div>
+  </section>
+</article>
+<script>
+var app = angular.module('rotator', []);
+var imgArray = document.querySelectorAll('.rotatorcontainer .item');
+app.controller('rotatorController', ['$scope', '$timeout', function($scope, $timeout) {
+  $scope.pic = 0;
+  var slideImage = function() {
+    var loop = $timeout(function changePic() {
+        if($scope.pic < imgArray.length){
+          $scope.pic++;
+        } else {
+          $scope.pic = 0;
+        }
+        loop = $timeout(changePic, 5000);
+    },5000);
+  }();
+}])
+
+</script>
