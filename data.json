@@ -40,17 +40,13 @@
   }],
 
   "social" : [{
-    "shortname" : "twitter",
-    "img" : "images/socialmedia/twitter.png",
-    "url" : "https://twitter.com/barcampdeland"
-  },{
     "shortname" : "facebook",
     "img" : "images/socialmedia/facebook.png",
-    "url" : "http://www.facebook.com/barcampdeland"
+    "url" : "https://www.facebook.com/MainStreetDeLand"
   },{
     "shortname" : "meetup",
     "img" : "images/socialmedia/meetup.png",
-    "url" : "http://www.meetup.com/Tech-Deland-bringing-together-people-technology"
+    "url" : "http://www.meetup.com/TechDeLand/"
   }],
 
   "meeting" : {
